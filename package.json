@@ -1,0 +1,22 @@
+{
+  "name": "bits-persisent-key-value",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KevinDyer/bits-persisent-key-value.git",
+  "author": "Kevin Dyer <kevin.m.dyer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.7.2",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^3.5.3"
+  },
+  "dependencies": {
+    "levelup": "^1.3.9"
+  },
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "mocha tests/*.js"
+  }
+}

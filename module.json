@@ -1,0 +1,7 @@
+{
+  "name": "persistent-key-value",
+  "version": "1.0.0",
+  "dependencies": {
+    "bits-base": "^2.8.0"
+  }
+}
